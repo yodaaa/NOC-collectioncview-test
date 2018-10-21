@@ -39,11 +39,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="91" height="81"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" tag="1" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq5-yW-lGw">
+                                                <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq5-yW-lGw">
                                                     <rect key="frame" x="27" y="8" width="46" height="44"/>
                                                     <state key="normal" title="Button"/>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcb-0Z-V4t">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcb-0Z-V4t">
                                                     <rect key="frame" x="29" y="60" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -54,9 +54,9 @@
                                         <constraints>
                                             <constraint firstItem="Dq5-yW-lGw" firstAttribute="centerX" secondItem="Vcb-0Z-V4t" secondAttribute="centerX" id="0Xs-Ru-wVh"/>
                                             <constraint firstItem="Dq5-yW-lGw" firstAttribute="top" secondItem="FPR-gX-8NH" secondAttribute="topMargin" id="7c7-mK-FrE"/>
-                                            <constraint firstItem="Vcb-0Z-V4t" firstAttribute="top" secondItem="Dq5-yW-lGw" secondAttribute="bottom" constant="10" id="BKF-Mm-OTx"/>
-                                            <constraint firstItem="Dq5-yW-lGw" firstAttribute="centerX" secondItem="FPR-gX-8NH" secondAttribute="centerX" id="jb3-fe-2hU"/>
-                                            <constraint firstItem="Dq5-yW-lGw" firstAttribute="leading" secondItem="FPR-gX-8NH" secondAttribute="leadingMargin" constant="11" id="zWf-33-Haf"/>
+                                            <constraint firstItem="Vcb-0Z-V4t" firstAttribute="top" secondItem="Dq5-yW-lGw" secondAttribute="bottom" constant="8" id="BKF-Mm-OTx"/>
+                                            <constraint firstItem="Dq5-yW-lGw" firstAttribute="centerX" secondItem="FPR-gX-8NH" secondAttribute="centerX" constant="4.5" id="jb3-fe-2hU"/>
+                                            <constraint firstItem="Dq5-yW-lGw" firstAttribute="leading" secondItem="FPR-gX-8NH" secondAttribute="leadingMargin" constant="19" id="zWf-33-Haf"/>
                                             <constraint firstAttribute="bottom" secondItem="Vcb-0Z-V4t" secondAttribute="bottom" id="ziO-G4-dt8"/>
                                         </constraints>
                                     </collectionViewCell>

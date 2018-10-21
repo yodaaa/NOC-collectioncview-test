@@ -25,6 +25,19 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
         layout.scrollDirection = .horizontal
         layout.sectionInset = UIEdgeInsets(top: 0.0, left: 10.0, bottom: 0.0, right: 20.0)
         collectionview.collectionViewLayout = layout
+        
+        
+        let startColor = UIColor(red:163/255, green:61/255, blue:161/255, alpha:1)
+        let endColor = UIColor(red:242/255, green:176/255, blue:95/255, alpha:1)
+        let gradientColors: [CGColor] = [startColor.cgColor, endColor.cgColor]
+        let gradientLayer: CAGradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 1, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 0, y: 1)
+        gradientLayer.colors = gradientColors
+
+        gradientLayer.frame = CGRect(x: 0 , y: 300, width: 100, height: 100)
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -67,7 +80,6 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(indexPath[1])
-        performSegue(withIdentifier: "toSubViewController",sender: indexPath[1])
         
     }
 
