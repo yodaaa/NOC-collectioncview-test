@@ -9,7 +9,7 @@
 import XCTest
 @testable import collectioncview_test
 
-class collectioncview_testTests: XCTestCase {
+class collectiocview_testTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
